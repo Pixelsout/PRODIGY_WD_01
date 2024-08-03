@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <title>Web Design Mastery | Responsive Landing Page</title>
+</head>
+<body> 
+    <div class="top-container"> 
+        <div class="menu-left">
+            <i class="ri-menu-line" onclick="toggleMenu()"></i>
+        </div>
+        <div class="nav__logo">RoyalDrive<span>.com</span></div>
+        <div class="menu-right">
+            <input class="search-box" type="text" placeholder="Search cars">
+            <i class="ri-user-line"></i>
+            <a href="#home" class="active">HOME</a>
+            <a href="#about-us" class="active">About Us</a>
+            <a href="#luxury-cars" class="active">Luxury Cars</a>
+            <a href="#contact-us" class="active">CONTACT Us</a>
+        </div>
+    </div>
+    <div id="side-menu" class="side-menu">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleMenu()">&times;</a>
+        <a href="#home" class="active">HOME</a>
+        <a href="#about-us" class="active">About Us</a>
+        <a href="#luxury-cars" class="active">Luxury Cars</a>
+        <a href="#contact" class="active">CONTACT</a>
+    </div>
+    <script src="script.js"></script>
+
+    <section id="luxury-cars" class="car-section">
+        <h2>Luxury Cars</h2>
+        <div class="car-container">
+            <div class="car-item">
+                <img src="asserts/image1.png" alt="Car 1">
+                <h3>Audi Q8</h3>
+                <p>Price:  Rs 1.04 Crore </p>
+                <p>Description: The Audi Q8 combines the elegance of a luxury coupe with the comfort.</p>
+            </div>
+            <div class="car-item">
+                <img src="asserts/image2.png" alt="Car 2">
+                <h3>BMW i7</h3>
+                <p>Price: ₹ 2.03 Crore</p>
+                <p>Description: The BMW i7 exemplifies the pinnacle of electric luxury, merging state-of-the-art technology</p>
+            </div>
+            <div class="car-item">
+                <img src="asserts/image 3.png" alt="Car 3">
+                <h3> Land Rover Defender</h3>
+                <p>Price:  ₹ 2.85 Crore</p>
+                <p>Description: The Land Rover Defender is a symbol of rugged capability and timeless design.</p>
+            </div>
+            <div class="car-item">
+                <img src="asserts/image 4.png" alt="Car 4">
+                <h3>Audi Q5</h3>
+                <p>Price: ₹ 65.51 Lakh</p>
+                <p>Description:The Audi Q5 is a versatile luxury SUV that blends sophisticated design, advanced technology.</p>
+            </div>
+            <div class="car-item">
+                <img src="asserts/image 5.png" alt="Car 4">
+                <h3>Porsche 911</h3>
+                <p>Price: ₹ 1.99 Crore</p>
+                <p>Description: The Porsche 911 stands as an icon of automotive excellence, offering exhilarating performance.</p>
+            </div><div class="car-item">
+                <img src="asserts/image 6.png" alt="Car 4">
+                <h3>Jeep Wrangler</h3>
+                <p>Price: ₹ 67.65 Lakh</p>
+                <p>Description: The Jeep Wrangler is an iconic off-road vehicle renowned for its rugged capability.</p>
+            </div><div class="car-item">
+                <img src="asserts/image 7.png" alt="Car 4">
+                <h3>Mercedes-Benz S-Class</h3>
+                <p>Price:  ₹ 1.77 Crore</p>
+                <p>Description: Mercedes-Benz S-Class is a flagship luxury sedan known for its opulence, advanced technology, and performance.</p>
+            </div>
+            <div class="car-item">
+                <img src="asserts/img 8.png" alt="Car 4">
+                <h3>Mercedes-Benz GLS</h3>
+                <p>Price: ₹ 1.32 Crore</p>
+                <p>Description:The Mercedes-Benz GLS is a full-size luxury SUV that combines the brand’s hallmark sophistication with ample space</p>
+            </div>
+           
+        </div>
+
+        <div class="end-container">
+            <div class="newsletter-box">
+                <h4>NEWSLETTER</h4>
+                <p7>Subscribe to receive updates, access to exclusive deals, and more.</p7>
+                <input type="text" class="text-box" placeholder="Enter your email address">
+                <button class="subscribe-button">SUBSCRIBE</button>
+            </div>
+            <div class="end-block">
+                <h4>INFORMATION</h5>
+                    <ul class="vertical-list">
+                        <li><a href="#about-us">About Us</a></li>
+                        <li><a href="#faqs">FAQs</a></li>
+                        <li><a href="#white-glove-service">White Glove Service</a></li>
+                        <li><a href="#delivery-shipping">Delivery & Shipping</a></li>
+                        <li><a href="#return-policy">Return Policy</a></li>
+                        <li><a href="#privacy-policy">Privacy Policy</a></li>
+                        <li><a href="#terms-of-service">Terms of Service</a></li>
+                        <li><a href="#blogs">Blogs</a></li>
+                        <li><a href="#refund-policy">Refund Policy</a></li>
+                    </ul>
+            </div>
+            <div class="end-block">
+                <h4>GET IN TOUCH </h4>
+                <ul class="vertical-list">
+                    <li><a href="#OUR_BRANCHES">Our Branches</a></li>
+                    <li><a href="#contact_us">Contact Us</a></li>
+            </div>
+            <div class="end-block"> 
+                <h4> FOLLOW US</h4>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/" target="_blank" class="social__link">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" class="social__link">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank" class="social__link">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" target="_blank" class="social__link">
+                        <i class="ri-linkedin-fill"></i>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        
+
+
+    </section>
+</body>
+</html>
